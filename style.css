@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #800020;
+    background: #faf7f4;
+}
+
+
+.parallax {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ingredients {
+    background-image: url("pics/ing.jpg");
+
+}
+.prep{
+    background-image: url("pics/prep.jpg");
+}
+.cook{
+    background-image: url("pics/cook.jpg");
+}
+.finish{
+    background-image: url("pics/done.jpg");
+}
+.card {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 60px;
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+
+    width: 600px;
+    max-width: 90%;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+}
